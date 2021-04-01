@@ -103,4 +103,4 @@ app.post('/order/search', async(req, res)=>{
 });
 
 
-app.listen(process.env.PORT, ()=>console.log("Listening ..."));
+app.listen(process.env.PORT||5000, ()=>console.log("Listening ..."));
